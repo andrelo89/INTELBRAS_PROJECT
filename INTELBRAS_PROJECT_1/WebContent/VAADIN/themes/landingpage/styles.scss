@@ -1,0 +1,69 @@
+@import "addons.scss";
+@import "landingpage.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in landingpage.scss */
+.landingpage {
+  @include addons;
+  @include landingpage;
+}
+
+.v-textfield { 
+	
+}
+
+.v-textfield-dashing {
+    border:     thin dashed;
+    background: white; /* Has shading image by default */
+}
+
+.header {
+    background: #4CBA5B; /* Has shading image by default */
+}
+
+.content {
+    background: #D8D8D8; /* Has shading image by default */
+}
+
+.title {
+    color: white;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.subtitle {
+    color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.titleformlayout {
+    background: #4CBA5B;
+}
+
+.titleform {
+    color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.subtitleform {
+    color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.formlayout {
+	background: #A4A4A4;
+    
+}
+
+.spamform {
+	color: white;
+	font-size: 15px;
+}
+
+.ajudalabel {
+	color: white;
+	font-size: 15px;
+}
