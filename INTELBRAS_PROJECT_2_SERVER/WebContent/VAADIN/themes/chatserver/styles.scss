@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "chatserver.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in chatserver.scss */
+.chatserver {
+  @include addons;
+  @include chatserver;
+}

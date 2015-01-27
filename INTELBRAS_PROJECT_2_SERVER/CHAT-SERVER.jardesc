@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="INTELBRAS_PROJECT_2_CLIENT/WebContent/WEB-INF/lib/chat-server.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/INTELBRAS_PROJECT_2_SERVER/CHAT-SERVER.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=INTELBRAS_PROJECT_2_SERVER/src&lt;br.com.intelbras.chat.service"/>
+        <javaElement handleIdentifier="=INTELBRAS_PROJECT_2_SERVER/src&lt;br.com.intelbras.chat.model"/>
+        <javaElement handleIdentifier="=INTELBRAS_PROJECT_2_SERVER/src&lt;br.com.intelbras.chat"/>
+    </selectedElements>
+</jardesc>

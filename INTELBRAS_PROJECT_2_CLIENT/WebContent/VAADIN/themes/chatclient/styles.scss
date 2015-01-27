@@ -1,0 +1,17 @@
+@import "addons.scss";
+@import "chatclient.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in chatclient.scss */
+.chatclient {
+  @include addons;
+  @include chatclient;
+}
+
+.users {
+	background-color : #BDBDBD;
+}
+
+.conversations {
+	background-color : #58FA82;
+}
